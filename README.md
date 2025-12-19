@@ -1,4 +1,3 @@
-# data-communication-project
 # Message Transmission with Error Detection and Correction
 
 This project demonstrates a **message transmission system** using **TCP sockets**, supporting **error detection and correction** methods. It includes:
@@ -20,9 +19,7 @@ This project demonstrates a **message transmission system** using **TCP sockets*
   - 2DPARITY
 - **Error correction**:
   - Hamming code (12,8)
-- **Cross-language support**:
-  - Python client
-  - JavaScript (Node.js) client
+
 - **Simulated message corruption** on the server to test error detection/correction
 - **Dynamic prompt**: The input prompt is always visible after sending or receiving messages
 
@@ -66,7 +63,7 @@ node client.js
 ## Usage
 
 1. Run the **server** first.
-2. Start **two clients** (Python and JS, or two Python clients).
+2. Start **two clients** (two Js clients or two Python clients).
 3. Each client can send messages with a selected **error method**.
 4. The server may **corrupt messages** to simulate transmission errors.
 5. The receiving client will:
@@ -133,12 +130,4 @@ Enter message to send (or type EXIT to quit):
 ## Notes
 
 - Server can randomly **flip bits** in messages to simulate transmission errors.
-- The system supports **cross-language communication** between Python and JS clients.
 - The input prompt is **reprinted after sending/receiving messages** for usability.
-
----
-
-## Folder Structure
-
-```
-project/
